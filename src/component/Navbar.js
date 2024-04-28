@@ -53,7 +53,7 @@ const Navbar = () => {
 <div className="w-full h-[100vh] flex flex-col items-center justify-center gap-[1rem] mq730:hidden">
  <Link to="/home" className="relative leading-[150%] inline-block min-w-[2.75rem] text-black text-2xl no-underline">Home</Link>
  <Link to="/about" className="relative leading-[150%] inline-block min-w-[2.688rem] text-black text-2xl no-underline">About</Link>
- <Link to="/services" className="relative leading-[150%] inline-block min-w-[2.688rem] text-black text-2xl no-underline">Services</Link>
+ <Link to="/service" className="relative leading-[150%] inline-block min-w-[2.688rem] text-black text-2xl no-underline">Services</Link>
  <Link to="/contact" className="relative leading-[150%] inline-block min-w-[3.813rem] text-black text-2xl no-underline">Contact us</Link>
 </div>
 )}
