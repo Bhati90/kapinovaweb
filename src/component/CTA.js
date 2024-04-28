@@ -1,4 +1,6 @@
+import { useState } from "react";
 const CTA = () => {
+     
      const [inputData, setInputData] = useState('');
 
   const submitData = () => {
