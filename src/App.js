@@ -13,7 +13,7 @@ function App() {
         <Routes>
 
           <Route path ='/' element={<PageStructure/>}/>
-          <Route path ='/services' element={<MacBookPro/>}/>
+          <Route path ='/service' element={<MacBookPro/>}/>
           <Route path ='/home' element={<PageStructure/>}/>
           <Route path ='/about' element={<About/>}/>
           <Route path ='/contact' element={<Desktop/>}/>
