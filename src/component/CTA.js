@@ -51,7 +51,7 @@ const CTA = () => {
           <div className="self-stretch flex flex-row items-start justify-start gap-[1rem] max-w-full mq800:flex-wrap">
             <div className="flex-1 bg-white box-border flex flex-row items-center justify-start py-[0.625rem] px-[0.687rem] min-w-[16rem] whitespace-nowrap max-w-full border-[1px] border-solid border-black">
               <input className="flex-1 relative leading-[150%] inline-block max-w-full"  value={inputData}
-                onChange={(e) => setInputData(e.target.value)}>
+                onChange={(e) => setInputData(e.target.value)}
                  placeholder="Enter your email"
                 type="text"
               />
