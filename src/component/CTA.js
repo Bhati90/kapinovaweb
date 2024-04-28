@@ -50,10 +50,11 @@ const CTA = () => {
         <div className="w-[32.063rem] flex flex-col items-start justify-start gap-[1rem] max-w-full text-[1rem] text-neutral-dark-gray">
           <div className="self-stretch flex flex-row items-start justify-start gap-[1rem] max-w-full mq800:flex-wrap">
             <div className="flex-1 bg-white box-border flex flex-row items-center justify-start py-[0.625rem] px-[0.687rem] min-w-[16rem] whitespace-nowrap max-w-full border-[1px] border-solid border-black">
-              <div className="flex-1 relative leading-[150%] inline-block max-w-full"  value={inputData}
+              <input className="flex-1 relative leading-[150%] inline-block max-w-full"  value={inputData}
                 onChange={(e) => setInputData(e.target.value)}>
-                Enter your email
-              </div>
+                 placeholder="Enter your email"
+                type="text"
+              />
             </div>
             <button className="cursor-pointer py-[0.625rem] px-[1.437rem] bg-black flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-black hover:bg-darkslategray-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100">
               <div className="relative text-[1rem] leading-[150%] font-text-small-link text-white text-left inline-block min-w-[3.438rem]" onClick = {submitData}>
