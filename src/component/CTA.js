@@ -1,4 +1,44 @@
 const CTA = () => {
+     const [inputData, setInputData] = useState('');
+
+  const submitData = () => {
+    // If there's some data in the input field, show the thank you message
+    if (inputData.trim() !== "") {
+      alert("Thank you for subscribing");
+      // Clear the input field after showing the message
+      setInputData('');
+    } else {
+      // If the input field is empty, show an alert asking the user to enter some data
+      alert("Please enter some data");
+    }
+  
+
+    // Send the data to the backend (you need to replace '/your/backend/endpoint' with the actual endpoint URL)
+    fetch('', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ data: inputData })
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Data sent successfully:', data);
+        // Clear the input field after successful submission
+        setInputData('');
+        // Show a thank you message
+        alert("Thank you for subscribing");
+      })
+      .catch(error => {
+        console.error('There was a problem sending the data:', error);
+        // Handle errors here
+      });
+  };
     return (
       <section className="self-stretch bg-white overflow-hidden flex flex-row flex-wrap items-center justify-center py-[7rem] px-[4rem] box-border gap-[5rem] max-w-full text-left text-[2.5rem] text-black font-text-small-link mq800:gap-[2.5rem] mq800:pl-[2rem] mq800:pr-[2rem] mq800:box-border mq450:gap-[1.25rem]">
         <div className="flex-1 flex flex-col items-start justify-start gap-[1.5rem] min-w-[29.188rem] max-w-full mq800:min-w-full">
