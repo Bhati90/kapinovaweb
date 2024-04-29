@@ -1,10 +1,13 @@
+import {Link} from "react-router-dom";
 const Links = () => {
     return (
       <div className="w-[42.75rem] flex flex-row items-start justify-start gap-[2.5rem] min-w-[42.75rem] max-w-full text-left text-[1rem] text-black font-text-small-link mq800:flex-wrap mq800:gap-[1.25rem] mq1125:min-w-full mq1325:flex-1">
         <div className="flex-1 overflow-hidden flex flex-col items-start justify-start gap-[1rem] min-w-[9.438rem]">
+       
           <div className="self-stretch relative leading-[150%] font-semibold">
             Contact Us
           </div>
+        
           <div className="self-stretch flex flex-col items-start justify-start text-[0.875rem]">
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
               <div className="flex-1 relative leading-[150%]">Phone no. - +91 987654311</div>
@@ -29,19 +32,21 @@ const Links = () => {
           </div>
           <div className="self-stretch flex flex-col items-start justify-start text-[0.875rem]">
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
+              <Link to ="/about">
               <div className="flex-1 relative leading-[150%]">About Us</div>
+              </Link>
             </div>
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
-              <div className="flex-1 relative leading-[150%]">Our Services</div>
+             <Link to ="/service">  <div className="flex-1 relative leading-[150%]">Our Services</div></Link>
             </div>
-            <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
-              <div className="flex-1 relative leading-[150%]">Projects</div>
-            </div>
+            // <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
+            //   <div className="flex-1 relative leading-[150%]">Projects</div>
+            // </div>
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
               <div className="flex-1 relative leading-[150%]">Careers</div>
             </div>
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
-              <div className="flex-1 relative leading-[150%]">Contact Us</div>
+             <Link to ="/contact">  <div className="flex-1 relative leading-[150%]">Contact Us</div> </Link>
             </div>
           </div>
         </div>
