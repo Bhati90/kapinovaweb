@@ -16,11 +16,7 @@ const Hero = () => {
             <div className="self-stretch h-[1.688rem] relative text-[1.125rem] leading-[150%] hidden" />
           </div>
           <div className="flex flex-row items-start justify-start pt-[1rem] px-[0rem] pb-[0rem] gap-[1rem] text-[1rem]">
-            // <button className="cursor-pointer py-[0.625rem] px-[1.437rem] bg-black rounded-xl flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-black hover:bg-darkslategray-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100">
-            //   <div className="relative text-[1rem] leading-[150%] font-text-regular-normal text-white text-left inline-block min-w-[4.25rem]">
-            //     See more
-            //   </div>
-            // </button>
+          
             <div className="h-[3.125rem] w-[6.125rem] box-border hidden flex-row items-center justify-center py-[0.75rem] px-[1.5rem] border-[1px] border-solid border-black">
               <div className="w-[3rem] relative leading-[150%] hidden">
                 Button
