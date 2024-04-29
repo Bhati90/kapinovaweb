@@ -22,7 +22,7 @@ import Links from "./Links";
 import Feature4 from "./feature4";
 import Desktop from "./Desktop";
 import { useState } from "react";
-
+import {Link} from 'react-router-dom';
 
 const PageStructure = () => {
  
@@ -79,15 +79,15 @@ const PageStructure = () => {
               © 2024 Kapinova. All rights reserved.
             </div>
             <div className="w-[21.563rem] flex flex-row items-start justify-start gap-[1.5rem] max-w-full mq450:flex-wrap">
-              <div className="relative [text-decoration:underline] leading-[150%] inline-block min-w-[5.438rem]">
+             <Link to = "/privacy> <div className="relative [text-decoration:underline] leading-[150%] inline-block min-w-[5.438rem]">
                 Privacy Policy
               </div>
-              <div className="flex-1 relative [text-decoration:underline] leading-[150%] inline-block min-w-[4.25rem]">
+                                                                                                 </Link>
+              <Link to = "/term> <div className="flex-1 relative [text-decoration:underline] leading-[150%] inline-block min-w-[4.25rem]">
                 Terms of Service
               </div>
-              <div className="flex-1 relative [text-decoration:underline] leading-[150%] inline-block min-w-[4.25rem]">
-                Cookies Settings
-              </div>
+         </Link>
+             
             </div>
           </div>
         </div>
