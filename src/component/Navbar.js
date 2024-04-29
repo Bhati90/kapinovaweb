@@ -98,7 +98,7 @@ const Navbar = () => {
            
         </div>
         <div className="flex-1 mq1325:hidden flex flex-col items-end justify-center max-w-full">
-        <Link to="/contact">
+        <Link to="/contact" className = "no-underline">
           <button className="cursor-pointer py-[0.375rem] px-[1.187rem] bg-black flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-black hover:bg-darkslategray-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100">
             <div className="relative text-[1rem] leading-[150%] font-text-small-link text-white text-left inline-block min-w-[4.813rem]">
               Contact us
