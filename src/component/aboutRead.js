@@ -66,7 +66,7 @@ const AboutReadMoreAnimation = () => {
         />
       </section>
       <div className="w-[77.188rem] flex flex-row items-start justify-center py-[0rem] pr-[0rem] pl-[0.625rem] box-border max-w-full">
-      <Link to = '/about'>  <button className="cursor-pointer [border:none] pt-[0.312rem] pb-[0.562rem] pr-[0.781rem] pl-[0.875rem] bg-black rounded-4xs flex flex-row items-start justify-start gap-[0.25rem] z-[1]">
+      <Link to = '/about' className = "no-underline">  <button className="cursor-pointer [border:none] pt-[0.312rem] pb-[0.562rem] pr-[0.781rem] pl-[0.875rem] bg-black rounded-4xs flex flex-row items-start justify-start gap-[0.25rem] z-[1]">
           <div className="h-[2.625rem] w-[9.938rem] relative rounded-4xs bg-black hidden" />
           <div className="relative text-[1.25rem] font-hannari text-transparent !bg-clip-text [background:linear-gradient(90deg,_#fff,_#999)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-left inline-block min-w-[6.188rem] z-[1] mq450:text-[1rem]">
             SEE MORE
