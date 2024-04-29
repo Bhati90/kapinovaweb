@@ -10,9 +10,10 @@ const Header = () => {
           </div>
           <div className="flex flex-row items-start justify-start pt-[1rem] px-[0rem] pb-[0rem]">
             <button className="cursor-pointer py-[0.625rem] px-[1.437rem] bg-black flex flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-black hover:bg-darkslategray-100 hover:box-border hover:border-[1px] hover:border-solid hover:border-darkslategray-100">
-              <div className="relative text-[1rem] leading-[150%] font-text-small-link text-white text-left inline-block min-w-[6.188rem]">
+            <Link to ='/team'><div className="relative text-[1rem] leading-[150%] font-text-small-link text-white text-left inline-block min-w-[6.188rem]">
                 Join our team
               </div>
+              </Link>
             </button>
           </div>
         </div>
