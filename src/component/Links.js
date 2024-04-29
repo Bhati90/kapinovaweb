@@ -41,7 +41,7 @@ const Links = () => {
             </div>
            
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
-              <Link to ="/career" className = "text-black no-underline"> <div className="flex-1 relative leading-[150%]">Careers</div></Link>
+              <Link to ="/team" className = "text-black no-underline"> <div className="flex-1 relative leading-[150%]">Careers</div></Link>
             </div>
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
              <Link to ="/contact" className = "text-black no-underline"><div className="flex-1 relative leading-[150%]">Contact Us</div> </Link>
