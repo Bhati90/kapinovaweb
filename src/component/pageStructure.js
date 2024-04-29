@@ -63,7 +63,7 @@ const PageStructure = () => {
         propDisplay="unset"
         propMinWidth="unset"
       />
-      <Testimonial />
+         {/* <Testimonial />*/}
       {/* <AboutReadMoreAnimation/> */}
       <CTA />
       <Header />
