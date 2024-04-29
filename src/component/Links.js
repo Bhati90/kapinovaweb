@@ -10,10 +10,10 @@ const Links = () => {
         
           <div className="self-stretch flex flex-col items-start justify-start text-[0.875rem]">
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
-              <div className="flex-1 relative leading-[150%]">Phone no. - +91 987654311</div>
+              <div className="flex-1 relative leading-[150%]">Phone no. -<a href='tel:+91 73400 02501' className = "text-black no-underline"> +91 73400 02501 </a></div>
             </div>
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
-              <div className="flex-1 relative leading-[150%]">Email ID - vipulagarwalkapinova@gmail.com</div>
+              <div className="flex-1 relative leading-[150%]"> Email ID -<a href='mailto:vipulagarwalkapinova@gmail.com' className = "text-black no-underline"> vipulagarwalkapinova@gmail.com</a></div>
             </div>
             <div className="self-stretch flex flex-row items-start justify-start py-[0.5rem] px-[0rem]">
               <div className="flex-1 relative leading-[150%]">Address - 3, Aakar Complex, University Road,<br/> Udaipur - 313001</div>
