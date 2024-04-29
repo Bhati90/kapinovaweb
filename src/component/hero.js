@@ -6,12 +6,13 @@ const Hero = () => {
         <div className="flex-1 flex flex-col items-start justify-start py-[1.25rem] px-[0rem] box-border gap-[1.5rem] min-w-[25rem] max-w-full mq750:min-w-full">
           <div className="self-stretch flex flex-col items-start justify-start gap-[1.5rem]">
             <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit mq750:text-[2.813rem] mq750:leading-[3.375rem] mq450:text-[2.125rem] mq450:leading-[2.5rem]">
-              <p className="m-0">EMPOWERING</p>
+              <p className="m-0">EMPOWER</p>
               <p className="m-0">
                 <span>{`YOUR `}</span>
                 <span className="text-red">BRAND</span>
-   <span className="text-red">With us </span>
+   
               </p>
+  <p className=" m-0">WITH US </p>
             </h1>
             <div className="self-stretch h-[1.688rem] relative text-[1.125rem] leading-[150%] hidden" />
           </div>
