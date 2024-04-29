@@ -50,7 +50,9 @@ const FrameComponent = () => {
               <input className="m-0 h-[1.219rem] w-[1.125rem]" type="checkbox" />
               <div className="relative leading-[150%] inline-block min-w-[7.25rem]">
                 {`I accept the `}
+<a href = "/terms">
                 <span className="[text-decoration:underline]">Terms</span>
+    </a>
               </div>
             </div>
           </div>
