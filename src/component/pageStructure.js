@@ -79,15 +79,14 @@ const PageStructure = () => {
               © 2024 Kapinova. All rights reserved.
             </div>
             <div className="w-[21.563rem] flex flex-row items-start justify-start gap-[1.5rem] max-w-full mq450:flex-wrap">
-             <Link to = "/privacy> <div className="relative [text-decoration:underline] leading-[150%] inline-block min-w-[5.438rem]">
+            <div className="relative [text-decoration:underline] leading-[150%] inline-block min-w-[5.438rem]">
                 Privacy Policy
-              </div> </Link>
-              <Link to = "/term> <div className="flex-1 relative [text-decoration:underline] leading-[150%] inline-block min-w-[4.25rem]">
+              </div> 
+             <div className="flex-1 relative [text-decoration:underline] leading-[150%] inline-block min-w-[4.25rem]">
                 Terms of Service
               </div>
-         </Link>
-             
-            </div>
+        
+         </div>
           </div>
         </div>
       </section>
