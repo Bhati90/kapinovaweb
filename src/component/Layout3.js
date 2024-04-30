@@ -7,7 +7,7 @@ const Layout3 = () => {
         alt=""
         src="/service1.jpg"
       />
-      <div className="flex-1 flex flex-col items-start justify-start min-w-[26.125rem] max-w-full mq800:min-w-full">
+      <div className="self-stretch flex-1 flex flex-col items-start justify-start min-w-[26.125rem] max-w-full mq800:min-w-full">
         <div className="self-stretch flex flex-col items-start justify-start gap-[1.5rem]">
           <h1 className="m-0 self-stretch relative text-inherit leading-[3.625rem] font-bold font-inherit mq800:text-[2.375rem] mq800:leading-[2.875rem] mq450:text-[1.813rem] mq450:leading-[2.188rem]">
             Web Development
