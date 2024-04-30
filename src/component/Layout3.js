@@ -1,6 +1,6 @@
 const Layout3 = () => {
   return (
-    <section className="h-full self-stretch bg-white overflow-hidden flex flex-row items-center justify-start py-[3.5rem] px-[4rem] box-border gap-[5rem] max-w-full text-left text-[3rem] text-black font-text-small-link mq800:gap-[1.25rem] mq800:pt-[4.563rem] mq800:pb-[4.563rem] mq800:box-border mq1325:flex-wrap mq1325:gap-[2.5rem] mq1325:pl-[2rem] mq1325:pr-[2rem] mq1325:box-border">
+    <section className="h-full self-stretch bg-white  flex flex-row items-center justify-start py-[3.5rem] px-[4rem] box-border gap-[5rem] max-w-full text-left text-[3rem] text-black font-text-small-link mq800:gap-[1.25rem] mq800:pt-[4.563rem] mq800:pb-[4.563rem] mq800:box-border mq1325:flex-wrap mq1325:gap-[2.5rem] mq1325:pl-[2rem] mq1325:pr-[2rem] mq1325:box-border">
       <img
         className="w-[36.813rem] relative max-h-full object-cover max-w-full mq1325:flex-1"
         loading="lazy"
