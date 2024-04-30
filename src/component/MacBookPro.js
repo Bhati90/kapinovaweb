@@ -6,6 +6,7 @@ import CTA from "./CTA";
 import Header from "./Header";
 import Newsletter from "./Newsletter";
 import Links from "./Links";
+import {Link} from 'react-router-dom'
 
 const MacBookPro = () => {
   return (
@@ -122,14 +123,12 @@ const MacBookPro = () => {
             </div>
             <div className="w-[21.563rem] flex flex-row items-start justify-start gap-[1.5rem] max-w-full mq450:flex-wrap">
               <div className="relative [text-decoration:underline] leading-[150%] inline-block min-w-[5.438rem]">
-                Privacy Policy
+               <Link to = '/privacy'> Privacy Policy</Link>
               </div>
               <div className="flex-1 relative [text-decoration:underline] leading-[150%] inline-block min-w-[4.25rem]">
-                Terms of Service
+               <Link to = '/term'> Terms of Service</Link>
               </div>
-              <div className="flex-1 relative [text-decoration:underline] leading-[150%] inline-block min-w-[4.25rem]">
-                Cookies Settings
-              </div>
+             
             </div>
           </div>
         </div>
