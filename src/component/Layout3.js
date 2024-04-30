@@ -1,18 +1,18 @@
 const Layout3 = () => {
   return (
-    <section className="self-stretch bg-white overflow-hidden flex flex-row items-center justify-start py-[3.5rem] px-[4rem] box-border gap-[5rem] max-w-full text-left text-[3rem] text-black font-text-small-link mq800:gap-[1.25rem] mq800:pt-[4.563rem] mq800:pb-[4.563rem] mq800:box-border mq1325:flex-wrap mq1325:gap-[2.5rem] mq1325:pl-[2rem] mq1325:pr-[2rem] mq1325:box-border">
+    <section className="h-full self-stretch bg-white overflow-hidden flex flex-row items-center justify-start py-[3.5rem] px-[4rem] box-border gap-[5rem] max-w-full text-left text-[3rem] text-black font-text-small-link mq800:gap-[1.25rem] mq800:pt-[4.563rem] mq800:pb-[4.563rem] mq800:box-border mq1325:flex-wrap mq1325:gap-[2.5rem] mq1325:pl-[2rem] mq1325:pr-[2rem] mq1325:box-border">
       <img
         className="w-[36.813rem] relative max-h-full object-cover max-w-full mq1325:flex-1"
         loading="lazy"
         alt=""
         src="/service1.jpg"
       />
-      <div className="self-stretch flex-1 flex flex-col items-start justify-start min-w-[26.125rem] max-w-full mq800:min-w-full">
-        <div className="self-stretch flex flex-col items-start justify-start gap-[1.5rem]">
+      <div className="h-full self-stretch flex-1 flex flex-col items-start justify-start min-w-[26.125rem] max-w-full mq800:min-w-full">
+        <div className="h-full self-stretch flex flex-col items-start justify-start gap-[1.5rem]">
           <h1 className="m-0 self-stretch relative text-inherit leading-[3.625rem] font-bold font-inherit mq800:text-[2.375rem] mq800:leading-[2.875rem] mq450:text-[1.813rem] mq450:leading-[2.188rem]">
             Web Development
           </h1>
-          <div className="self-stretch h-[27rem] relative text-[1.125rem] leading-[150%] inline-block">
+          <div className="h-full self-stretch h-[27rem] relative text-[1.125rem] leading-[150%] inline-block">
             <p className="m-0">
               Web development is the process of creating and maintaining
               websites, encompassing everything from the initial design and
