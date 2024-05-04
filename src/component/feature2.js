@@ -9,7 +9,7 @@ const Feature2 = () => {
   };
 
   return (
-    <div className="self-stretch pt-8  bg-white overflow-hidden flex flex-row flex-wrap items-center justify-start  px-[1rem] box-border gap-[5rem] max-w-full z-[1] mt-[-3rem] text-center text-[1.25rem] text-black mt-[3rem] font-text-regular-normal mq750:gap-[1.25rem] mq450:pb-[2.938rem] mq450:box-border mq1100:pb-[4.563rem] mq1100:box-border mq1250:gap-[2.5rem] mq1250:pl-[2rem] mq1250:pr-[2rem] mq1250:box-border">
+    <div className="self-stretch pt-8  bg-white overflow-hidden flex flex-row flex-wrap items-center justify-start  px-[1rem] box-border gap-[5rem] max-w-full z-[1] text-center text-[1.25rem] text-black mt-[3rem] font-text-regular-normal mq750:gap-[1.25rem] mq450:pb-[2.938rem] mq450:box-border mq1100:pb-[4.563rem] mq1100:box-border mq1250:gap-[2.5rem] mq1250:pl-[2rem] mq1250:pr-[2rem] mq1250:box-border">
       <img
         className=" flex-1 relative min-w-[25rem] max-w-full overflow-hidden mq750:min-w-full"
         loading="lazy"
